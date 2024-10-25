@@ -18,6 +18,7 @@
     <Setter Property="ExtendClientAreaChromeHints" Value="NoChrome" />
     <Setter Property="SystemDecorations" Value="Full" /> <!-- with Full on Windows 11 we get rounded borders and shadow, which is bad, but unfortunately with None, dragging and resizing doesn't work -->
     <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
+    <Setter Property="utils:NativeWindows.RemoveCorner" Value="True"></Setter>
 
     <Style Selector="^.__classic_theme_is_mac">
       <Setter Property="SystemDecorations" Value="None" /> <!-- on a mac None decorations work fine and we still can drag and resize the window -->
